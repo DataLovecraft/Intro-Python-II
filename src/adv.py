@@ -50,7 +50,22 @@ room['treasure'].s_to = room['narrow']
 #
 # If the user enters "q", quit the game.
 
+#player = room['outside']
+player = Player()
+moves = ['n', 's', 'e', 'w', 'q']
+
+while moves != "q":
+    direction = input("Which way to go?")
+    try:
+        if moves == 'n'
+
+        elif moves == 's'
+
+        elif moves == 'e'
+
+        elif moves == 'w'
+
+        else:
 
 
-class Player:
-    pass
+
