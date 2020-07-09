@@ -3,5 +3,9 @@
 
 
 class Room:
-    def __init__(self, room_info):
-        self.room_info = room_info
+    def __init__(self, name, description):
+        self.name = name
+        self.description = description
+
+    def __str__(self):
+        return f"{self.name}, {self.description}"
